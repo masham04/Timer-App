@@ -18,9 +18,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "react-jsx"
   },
   "include": [
-    "src", "src/serviceWorker.ts"
+    "src",
+    "src/serviceWorker.ts"
   ]
 }
