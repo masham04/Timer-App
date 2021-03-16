@@ -4,14 +4,14 @@
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
-  '/static/js/bundle.js',
+  '/sw.js',
+  'index.html',
+  'index.js',
+  'App.tsx',
+  'App.css',
   '/static/js/0.chunk.js',
   '/static/js/main.chunk.js',
-  '/App.tsx',
-  '/App.css',
-  '/index.tsx',
-  '/index.html',
-  '/sw.js'
+  '/static/js/bundle.js',
 ];
 
 self.addEventListener('install', function(event) {
