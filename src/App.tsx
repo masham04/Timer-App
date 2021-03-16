@@ -3,7 +3,7 @@ import { Timer } from './Timer';
 import './App.css';
 
 function App() {
-  navigator.serviceWorker.register('/sw.js');
+  navigator.serviceWorker.register('/sw.ts');
   return (
     <div className="App">
       <h1 className='title'>TIMER APP</h1>
