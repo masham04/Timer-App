@@ -1,6 +1,4 @@
 
- ///////////////////Cache Storing
-
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
@@ -12,6 +10,8 @@ var urlsToCache = [
   '/static/js/0.chunk.js',
   '/static/js/main.chunk.js',
   '/static/js/bundle.js',
+  '/http://localhost:3000'
+
 ];
 
 self.addEventListener('install', function(event) {
